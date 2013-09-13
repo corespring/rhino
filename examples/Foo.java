@@ -4,9 +4,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import org.mozilla.javascript.*;
-import org.mozilla.javascript.annotations.JSFunction;
-import org.mozilla.javascript.annotations.JSGetter;
+import org.corespring.javascript.*;
+import org.corespring.javascript.annotations.JSFunction;
+import org.corespring.javascript.annotations.JSGetter;
 
 /**
  * An example host object class.
@@ -42,9 +42,9 @@ import org.mozilla.javascript.annotations.JSGetter;
  * js>
  * </pre>
  *
- * @see org.mozilla.javascript.Context
- * @see org.mozilla.javascript.Scriptable
- * @see org.mozilla.javascript.ScriptableObject
+ * @see org.corespring.javascript.Context
+ * @see org.corespring.javascript.Scriptable
+ * @see org.corespring.javascript.ScriptableObject
  *
  * @author Norris Boyd
  */
@@ -118,7 +118,7 @@ public class Foo extends ScriptableObject {
      * @return computes the string values and types of 'this' and
      * of each of the supplied arguments and returns them in a string.
      *
-     * @see org.mozilla.javascript.ScriptableObject#getTopLevelScope
+     * @see org.corespring.javascript.ScriptableObject#getTopLevelScope
      */
     @JSFunction
     public static Object varargs(Context cx, Scriptable thisObj,

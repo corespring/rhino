@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -23,10 +23,10 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
-import org.mozilla.javascript.drivers.ShellTest;
-import org.mozilla.javascript.drivers.StandardTests;
-import org.mozilla.javascript.drivers.TestUtils;
-import org.mozilla.javascript.tools.shell.ShellContextFactory;
+import org.corespring.javascript.drivers.ShellTest;
+import org.corespring.javascript.drivers.StandardTests;
+import org.corespring.javascript.drivers.TestUtils;
+import org.corespring.javascript.tools.shell.ShellContextFactory;
 
 /**
  * This JUnit suite runs the Mozilla test suite (in mozilla.org CVS

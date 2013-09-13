@@ -2,17 +2,17 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import java.lang.reflect.Method;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextAction;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.EcmaError;
-import org.mozilla.javascript.ScriptableObject;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.ContextAction;
+import org.corespring.javascript.ContextFactory;
+import org.corespring.javascript.EcmaError;
+import org.corespring.javascript.ScriptableObject;
 
 /**
  * Test that read-only properties can be... set when needed.

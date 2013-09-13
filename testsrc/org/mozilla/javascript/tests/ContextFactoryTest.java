@@ -5,14 +5,14 @@
 /**
  *
  */
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import junit.framework.TestCase;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.RhinoException;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.ContextFactory;
+import org.corespring.javascript.Scriptable;
+import org.corespring.javascript.RhinoException;
 
 /**
  * @author Norris Boyd

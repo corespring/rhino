@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.drivers;
+package org.corespring.javascript.drivers;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -13,7 +13,7 @@ import junit.framework.Assert;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-import org.mozilla.javascript.tools.shell.ShellContextFactory;
+import org.corespring.javascript.tools.shell.ShellContextFactory;
 
 /**
  * Executes the tests in the js/tests directory, much like jsDriver.pl does.
@@ -24,7 +24,7 @@ import org.mozilla.javascript.tools.shell.ShellContextFactory;
 public class StandardTests extends TestSuite
 {
     // Disable this suite in favor of
-    // org.mozilla.javascript.tests.MozillaSuiteTest
+    // org.corespring.javascript.tests.MozillaSuiteTest
     private static final boolean DISABLE = true;
 
 	public static TestSuite suite() throws Exception

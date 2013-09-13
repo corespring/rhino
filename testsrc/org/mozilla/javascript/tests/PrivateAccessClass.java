@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 /**
  * A class with private/protected/package private members, to test the Rhino

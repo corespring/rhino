@@ -193,7 +193,7 @@
     <mkdir dir="${test.output}" />
     <java
       fork="true"
-      classname="org.mozilla.javascript.drivers.JsDriver"
+      classname="org.corespring.javascript.drivers.JsDriver"
       maxmemory="${test.vm.mx}"
     >
       <classpath>

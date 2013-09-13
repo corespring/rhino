@@ -5,17 +5,17 @@
 /**
  * 
  */
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import static org.junit.Assert.*;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.EvaluatorException;
-import org.mozilla.javascript.Script;
-import org.mozilla.javascript.ScriptableObject;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.EvaluatorException;
+import org.corespring.javascript.Script;
+import org.corespring.javascript.ScriptableObject;
 
 /**
  * @author André Bargull

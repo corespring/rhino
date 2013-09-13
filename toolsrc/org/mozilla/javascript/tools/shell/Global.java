@@ -4,7 +4,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tools.shell;
+package org.corespring.javascript.tools.shell;
 
 import java.io.*;
 import java.net.*;
@@ -15,13 +15,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
-import org.mozilla.javascript.*;
-import org.mozilla.javascript.commonjs.module.Require;
-import org.mozilla.javascript.commonjs.module.RequireBuilder;
-import org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider;
-import org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider;
-import org.mozilla.javascript.tools.ToolErrorReporter;
-import org.mozilla.javascript.serialize.*;
+import org.corespring.javascript.*;
+import org.corespring.javascript.commonjs.module.Require;
+import org.corespring.javascript.commonjs.module.RequireBuilder;
+import org.corespring.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider;
+import org.corespring.javascript.commonjs.module.provider.UrlModuleSourceProvider;
+import org.corespring.javascript.tools.ToolErrorReporter;
+import org.corespring.javascript.serialize.*;
 
 /**
  * This class provides for sharing functions across multiple threads.
@@ -270,7 +270,7 @@ public class Global extends ImporterTopLevel
      *            the named class
      * @exception InvocationTargetException if an exception is thrown
      *            during execution of methods of the named class
-     * @see org.mozilla.javascript.ScriptableObject#defineClass(Scriptable,Class)
+     * @see org.corespring.javascript.ScriptableObject#defineClass(Scriptable,Class)
      */
     @SuppressWarnings({"unchecked"})
     public static void defineClass(Context cx, Scriptable thisObj,

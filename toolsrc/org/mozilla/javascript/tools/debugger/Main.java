@@ -4,15 +4,15 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tools.debugger;
+package org.corespring.javascript.tools.debugger;
 
 import java.io.InputStream;
 import java.io.PrintStream;
 
 import javax.swing.JFrame;
 
-import org.mozilla.javascript.*;
-import org.mozilla.javascript.tools.shell.Global;
+import org.corespring.javascript.*;
+import org.corespring.javascript.tools.shell.Global;
 
 /**
  * Rhino script debugger main class.  This class links together a
@@ -199,7 +199,7 @@ public class Main {
 
     /**
      * Main entry point.  Creates a debugger attached to a Rhino
-     * {@link org.mozilla.javascript.tools.shell.Main} shell session.
+     * {@link org.corespring.javascript.tools.shell.Main} shell session.
      */
     public static void main(String[] args) {
         Main main = new Main("Rhino JavaScript Debugger");
@@ -210,13 +210,13 @@ public class Main {
         System.setOut(main.getOut());
         System.setErr(main.getErr());
 
-        Global global = org.mozilla.javascript.tools.shell.Main.getGlobal();
+        Global global = org.corespring.javascript.tools.shell.Main.getGlobal();
         global.setIn(main.getIn());
         global.setOut(main.getOut());
         global.setErr(main.getErr());
 
         main.attachTo(
-            org.mozilla.javascript.tools.shell.Main.shellContextFactory);
+            org.corespring.javascript.tools.shell.Main.shellContextFactory);
 
         main.setScope(global);
 
@@ -224,7 +224,7 @@ public class Main {
         main.setSize(600, 460);
         main.setVisible(true);
 
-        org.mozilla.javascript.tools.shell.Main.exec(args);
+        org.corespring.javascript.tools.shell.Main.exec(args);
     }
 
     /**

@@ -2,14 +2,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import java.io.File;
 import java.io.FileFilter;
 import java.io.IOException;
 
-import org.mozilla.javascript.drivers.TestUtils;
-import org.mozilla.javascript.drivers.JsTestsBase;
+import org.corespring.javascript.drivers.TestUtils;
+import org.corespring.javascript.drivers.JsTestsBase;
 
 public class JsTestsTest extends JsTestsBase {
     static final String baseDirectory = "testsrc" + File.separator + "jstests";

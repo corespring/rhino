@@ -4,7 +4,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tools.shell;
+package org.corespring.javascript.tools.shell;
 
 import java.io.IOException;
 import java.security.*;
@@ -12,7 +12,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Enumeration;
 
-import org.mozilla.javascript.*;
+import org.corespring.javascript.*;
 
 public class JavaPolicySecurity extends SecurityProxy
 {

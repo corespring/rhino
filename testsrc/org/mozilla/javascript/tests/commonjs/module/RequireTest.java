@@ -1,4 +1,4 @@
-package org.mozilla.javascript.tests.commonjs.module;
+package org.corespring.javascript.tests.commonjs.module;
 
 import java.io.InputStreamReader;
 import java.io.Reader;
@@ -6,12 +6,12 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Collections;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.commonjs.module.Require;
-import org.mozilla.javascript.commonjs.module.provider.StrongCachingModuleScriptProvider;
-import org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.Scriptable;
+import org.corespring.javascript.ScriptableObject;
+import org.corespring.javascript.commonjs.module.Require;
+import org.corespring.javascript.commonjs.module.provider.StrongCachingModuleScriptProvider;
+import org.corespring.javascript.commonjs.module.provider.UrlModuleSourceProvider;
 
 import junit.framework.TestCase;
 

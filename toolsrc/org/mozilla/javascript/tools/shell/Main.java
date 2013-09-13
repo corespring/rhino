@@ -4,7 +4,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tools.shell;
+package org.corespring.javascript.tools.shell;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -27,21 +27,21 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextAction;
-import org.mozilla.javascript.Function;
-import org.mozilla.javascript.GeneratedClassLoader;
-import org.mozilla.javascript.Kit;
-import org.mozilla.javascript.NativeArray;
-import org.mozilla.javascript.RhinoException;
-import org.mozilla.javascript.Script;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.SecurityController;
-import org.mozilla.javascript.commonjs.module.ModuleScope;
-import org.mozilla.javascript.commonjs.module.Require;
-import org.mozilla.javascript.tools.SourceReader;
-import org.mozilla.javascript.tools.ToolErrorReporter;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.ContextAction;
+import org.corespring.javascript.Function;
+import org.corespring.javascript.GeneratedClassLoader;
+import org.corespring.javascript.Kit;
+import org.corespring.javascript.NativeArray;
+import org.corespring.javascript.RhinoException;
+import org.corespring.javascript.Script;
+import org.corespring.javascript.Scriptable;
+import org.corespring.javascript.ScriptableObject;
+import org.corespring.javascript.SecurityController;
+import org.corespring.javascript.commonjs.module.ModuleScope;
+import org.corespring.javascript.commonjs.module.Require;
+import org.corespring.javascript.tools.SourceReader;
+import org.corespring.javascript.tools.ToolErrorReporter;
 
 /**
  * The shell program.
@@ -415,7 +415,7 @@ public class Main
         Throwable exObj;
         try {
             Class<?> cl = Class.forName
-                ("org.mozilla.javascript.tools.shell.JavaPolicySecurity");
+                ("org.corespring.javascript.tools.shell.JavaPolicySecurity");
             securityImpl = (SecurityProxy)cl.newInstance();
             SecurityController.initGlobal(securityImpl);
             return;

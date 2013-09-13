@@ -2,11 +2,11 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
-import org.mozilla.javascript.NativeArray;
+import org.corespring.javascript.NativeArray;
 
 public class Bug492525Test {
   @Test

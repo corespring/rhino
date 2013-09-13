@@ -2,14 +2,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tools.jsc;
+package org.corespring.javascript.tools.jsc;
 
 import java.io.*;
 import java.util.*;
-import org.mozilla.javascript.*;
-import org.mozilla.javascript.optimizer.ClassCompiler;
-import org.mozilla.javascript.tools.SourceReader;
-import org.mozilla.javascript.tools.ToolErrorReporter;
+import org.corespring.javascript.*;
+import org.corespring.javascript.optimizer.ClassCompiler;
+import org.corespring.javascript.tools.SourceReader;
+import org.corespring.javascript.tools.ToolErrorReporter;
 
 /**
  * @author Norris Boyd

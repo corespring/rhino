@@ -3,10 +3,10 @@
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
-package org.mozilla.javascript.tools.debugger;
+package org.corespring.javascript.tools.debugger;
 
-import org.mozilla.javascript.*;
-import org.mozilla.javascript.debug.*;
+import org.corespring.javascript.*;
+import org.corespring.javascript.debug.*;
 import java.util.*;
 import java.io.*;
 import java.net.URL;

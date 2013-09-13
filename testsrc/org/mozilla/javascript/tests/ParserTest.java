@@ -2,16 +2,16 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
-import org.mozilla.javascript.ast.*;
+import org.corespring.javascript.ast.*;
 
-import org.mozilla.javascript.CompilerEnvirons;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.EvaluatorException;
-import org.mozilla.javascript.Parser;
-import org.mozilla.javascript.Token;
-import org.mozilla.javascript.testing.TestErrorReporter;
+import org.corespring.javascript.CompilerEnvirons;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.EvaluatorException;
+import org.corespring.javascript.Parser;
+import org.corespring.javascript.Token;
+import org.corespring.javascript.testing.TestErrorReporter;
 
 import junit.framework.TestCase;
 

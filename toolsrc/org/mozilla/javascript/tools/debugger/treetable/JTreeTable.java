@@ -31,7 +31,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package org.mozilla.javascript.tools.debugger.treetable;
+package org.corespring.javascript.tools.debugger.treetable;
 
 import javax.swing.*;
 import javax.swing.event.*;

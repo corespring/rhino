@@ -4,9 +4,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tools;
+package org.corespring.javascript.tools;
 
-import org.mozilla.javascript.*;
+import org.corespring.javascript.*;
 
 import java.text.MessageFormat;
 import java.io.*;
@@ -30,7 +30,7 @@ public class ToolErrorReporter implements ErrorReporter {
 
     /**
      * Look up the message corresponding to messageId in the
-     * org.mozilla.javascript.tools.shell.resources.Messages property file.
+     * org.corespring.javascript.tools.shell.resources.Messages property file.
      * For internationalization support.
      */
     public static String getMessage(String messageId) {
@@ -54,7 +54,7 @@ public class ToolErrorReporter implements ErrorReporter {
 
         // ResourceBundle does caching.
         ResourceBundle rb = ResourceBundle.getBundle
-            ("org.mozilla.javascript.tools.resources.Messages", locale);
+            ("org.corespring.javascript.tools.resources.Messages", locale);
 
         String formatString;
         try {

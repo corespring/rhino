@@ -4,21 +4,21 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import java.io.*;
 
 import junit.framework.TestCase;
 
-import org.mozilla.javascript.ConsString;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Script;
-import org.mozilla.javascript.Function;
-import org.mozilla.javascript.ContinuationPending;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.WrappedException;
-import org.mozilla.javascript.serialize.ScriptableInputStream;
-import org.mozilla.javascript.serialize.ScriptableOutputStream;
+import org.corespring.javascript.ConsString;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.Script;
+import org.corespring.javascript.Function;
+import org.corespring.javascript.ContinuationPending;
+import org.corespring.javascript.Scriptable;
+import org.corespring.javascript.WrappedException;
+import org.corespring.javascript.serialize.ScriptableInputStream;
+import org.corespring.javascript.serialize.ScriptableOutputStream;
 
 
 /**

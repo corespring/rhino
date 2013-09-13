@@ -5,7 +5,7 @@
 /**
  * 
  */
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import static java.lang.String.format;
 import static java.util.Arrays.asList;
@@ -19,19 +19,19 @@ import java.util.HashSet;
 import java.util.Set;
 
 import org.junit.Test;
-import org.mozilla.javascript.CompilerEnvirons;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextAction;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.ErrorReporter;
-import org.mozilla.javascript.IRFactory;
-import org.mozilla.javascript.Parser;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.ast.AstRoot;
-import org.mozilla.javascript.ast.FunctionNode;
-import org.mozilla.javascript.ast.ScriptNode;
-import org.mozilla.javascript.optimizer.Codegen;
-import org.mozilla.javascript.optimizer.OptFunctionNode;
+import org.corespring.javascript.CompilerEnvirons;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.ContextAction;
+import org.corespring.javascript.ContextFactory;
+import org.corespring.javascript.ErrorReporter;
+import org.corespring.javascript.IRFactory;
+import org.corespring.javascript.Parser;
+import org.corespring.javascript.ScriptableObject;
+import org.corespring.javascript.ast.AstRoot;
+import org.corespring.javascript.ast.FunctionNode;
+import org.corespring.javascript.ast.ScriptNode;
+import org.corespring.javascript.optimizer.Codegen;
+import org.corespring.javascript.optimizer.OptFunctionNode;
 
 /**
  * @author André Bargull

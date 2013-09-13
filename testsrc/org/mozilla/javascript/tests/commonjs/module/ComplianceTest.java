@@ -1,4 +1,4 @@
-package org.mozilla.javascript.tests.commonjs.module;
+package org.corespring.javascript.tests.commonjs.module;
 
 import java.io.File;
 import java.net.URI;
@@ -12,13 +12,13 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Function;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.commonjs.module.Require;
-import org.mozilla.javascript.commonjs.module.provider.StrongCachingModuleScriptProvider;
-import org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.Function;
+import org.corespring.javascript.Scriptable;
+import org.corespring.javascript.ScriptableObject;
+import org.corespring.javascript.commonjs.module.Require;
+import org.corespring.javascript.commonjs.module.provider.StrongCachingModuleScriptProvider;
+import org.corespring.javascript.commonjs.module.provider.UrlModuleSourceProvider;
 
 /**
  * @author Attila Szegedi

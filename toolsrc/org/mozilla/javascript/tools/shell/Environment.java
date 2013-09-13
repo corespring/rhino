@@ -12,11 +12,11 @@
         by Patrick C. Beard <beard@netscape.com>
  */
 
-package org.mozilla.javascript.tools.shell;
+package org.corespring.javascript.tools.shell;
 
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.ScriptableObject;
+import org.corespring.javascript.Scriptable;
+import org.corespring.javascript.ScriptRuntime;
+import org.corespring.javascript.ScriptableObject;
 
 import java.util.Map;
 

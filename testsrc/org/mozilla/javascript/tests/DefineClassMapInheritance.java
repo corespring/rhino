@@ -1,12 +1,12 @@
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import static org.junit.Assert.*;
 
 import java.lang.reflect.InvocationTargetException;
 
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ScriptableObject;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.ScriptableObject;
 
 @SuppressWarnings("serial")
 public class DefineClassMapInheritance {

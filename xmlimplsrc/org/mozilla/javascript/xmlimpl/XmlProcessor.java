@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.xmlimpl;
+package org.corespring.javascript.xmlimpl;
 
 import org.w3c.dom.*;
 
@@ -16,9 +16,9 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.concurrent.LinkedBlockingDeque;
 
-import org.mozilla.javascript.*;
+import org.corespring.javascript.*;
 
-//    Disambiguate from org.mozilla.javascript.Node
+//    Disambiguate from org.corespring.javascript.Node
 import org.w3c.dom.Node;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXParseException;

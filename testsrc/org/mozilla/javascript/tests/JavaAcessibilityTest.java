@@ -5,18 +5,18 @@
 /**
  *
  */
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import junit.framework.TestCase;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextAction;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.NativeJavaObject;
-import org.mozilla.javascript.Script;
-import org.mozilla.javascript.drivers.TestUtils;
-import org.mozilla.javascript.tools.shell.Global;
-import org.mozilla.javascript.tools.shell.ShellContextFactory;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.ContextAction;
+import org.corespring.javascript.ContextFactory;
+import org.corespring.javascript.NativeJavaObject;
+import org.corespring.javascript.Script;
+import org.corespring.javascript.drivers.TestUtils;
+import org.corespring.javascript.tools.shell.Global;
+import org.corespring.javascript.tools.shell.ShellContextFactory;
 
 /**
  * @author donnamalayeri
@@ -24,7 +24,7 @@ import org.mozilla.javascript.tools.shell.ShellContextFactory;
 public class JavaAcessibilityTest extends TestCase {
 
   protected final Global global = new Global();
-  String importClass = "importClass(Packages.org.mozilla.javascript.tests.PrivateAccessClass)\n";
+  String importClass = "importClass(Packages.org.corespring.javascript.tests.PrivateAccessClass)\n";
 
   public JavaAcessibilityTest() {
     global.init(contextFactory);

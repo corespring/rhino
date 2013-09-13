@@ -5,13 +5,13 @@
 /**
  *
  */
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import junit.framework.TestCase;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextAction;
-import org.mozilla.javascript.Scriptable;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.ContextAction;
+import org.corespring.javascript.Scriptable;
 
 /**
  * Tests for global functions parseFloat and parseInt.

@@ -2,14 +2,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.drivers;
+package org.corespring.javascript.drivers;
 
 import java.io.*;
 import java.util.*;
 
 import org.w3c.dom.*;
 
-import org.mozilla.javascript.tools.shell.*;
+import org.corespring.javascript.tools.shell.*;
 
 /**
  * @version $Id: JsDriver.java,v 1.10 2009/05/15 12:30:45 nboyd%atg.com Exp $

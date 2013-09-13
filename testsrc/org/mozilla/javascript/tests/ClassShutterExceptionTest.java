@@ -5,15 +5,15 @@
 /**
  *
  */
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import junit.framework.TestCase;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ClassShutter;
-import org.mozilla.javascript.RhinoException;
-import org.mozilla.javascript.EvaluatorException;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.Scriptable;
+import org.corespring.javascript.ClassShutter;
+import org.corespring.javascript.RhinoException;
+import org.corespring.javascript.EvaluatorException;
 
 /**
  * @author Norris Boyd

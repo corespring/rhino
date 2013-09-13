@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.drivers;
+package org.corespring.javascript.drivers;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -13,10 +13,10 @@ import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.util.ArrayList;
 
-import org.mozilla.javascript.*;
-import org.mozilla.javascript.tools.shell.Global;
-import org.mozilla.javascript.tools.shell.Main;
-import org.mozilla.javascript.tools.shell.ShellContextFactory;
+import org.corespring.javascript.*;
+import org.corespring.javascript.tools.shell.Global;
+import org.corespring.javascript.tools.shell.Main;
+import org.corespring.javascript.tools.shell.ShellContextFactory;
 
 /**
  * @version $Id: ShellTest.java,v 1.14 2011/03/29 15:17:49 hannes%helma.at Exp $

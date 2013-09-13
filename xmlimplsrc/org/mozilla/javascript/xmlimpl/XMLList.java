@@ -4,10 +4,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.xmlimpl;
+package org.corespring.javascript.xmlimpl;
 
-import org.mozilla.javascript.*;
-import org.mozilla.javascript.xml.*;
+import org.corespring.javascript.*;
+import org.corespring.javascript.xml.*;
 import java.util.ArrayList;
 
 class XMLList extends XMLObjectImpl implements Function {

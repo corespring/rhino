@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import org.junit.Test;
 import org.junit.Before;
@@ -10,7 +10,7 @@ import org.junit.Before;
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.core.Is.is;
 
-import org.mozilla.javascript.NativeArray;
+import org.corespring.javascript.NativeArray;
 
 public class NativeArrayTest {
   private NativeArray array;

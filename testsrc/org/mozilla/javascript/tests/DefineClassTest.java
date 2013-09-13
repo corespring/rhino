@@ -2,15 +2,15 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import org.junit.Test;
 import org.junit.Before;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-import org.mozilla.javascript.*;
-import org.mozilla.javascript.annotations.*;
+import org.corespring.javascript.*;
+import org.corespring.javascript.annotations.*;
 
 public class DefineClassTest {
 

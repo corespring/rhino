@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.drivers;
+package org.corespring.javascript.drivers;
 
 import java.io.File;
 import java.io.FileReader;
@@ -10,9 +10,9 @@ import java.io.IOException;
 
 import junit.framework.TestCase;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.Scriptable;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.ContextFactory;
+import org.corespring.javascript.Scriptable;
 
 public class JsTestsBase extends TestCase {
     private int optimizationLevel;

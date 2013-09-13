@@ -3,7 +3,7 @@
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
-package org.mozilla.javascript.tools.debugger;
+package org.corespring.javascript.tools.debugger;
 
 import javax.swing.*;
 import javax.swing.text.*;
@@ -47,14 +47,14 @@ import javax.swing.tree.DefaultTreeCellRenderer;
 import javax.swing.tree.TreePath;
 import java.lang.reflect.Method;
 
-import org.mozilla.javascript.Kit;
-import org.mozilla.javascript.SecurityUtilities;
+import org.corespring.javascript.Kit;
+import org.corespring.javascript.SecurityUtilities;
 
-import org.mozilla.javascript.tools.shell.ConsoleTextArea;
+import org.corespring.javascript.tools.shell.ConsoleTextArea;
 
-import org.mozilla.javascript.tools.debugger.treetable.JTreeTable;
-import org.mozilla.javascript.tools.debugger.treetable.TreeTableModel;
-import org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter;
+import org.corespring.javascript.tools.debugger.treetable.JTreeTable;
+import org.corespring.javascript.tools.debugger.treetable.TreeTableModel;
+import org.corespring.javascript.tools.debugger.treetable.TreeTableModelAdapter;
 
 /**
  * GUI for the Rhino debugger.
@@ -104,7 +104,7 @@ public class SwingGui extends JFrame implements GuiCallback {
 
     /**
      * The {@link JSplitPane} that separates {@link #desk} from
-     * {@link org.mozilla.javascript.Context}.
+     * {@link org.corespring.javascript.Context}.
      */
     private JSplitPane split1;
 

@@ -2,16 +2,16 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tests.json;
+package org.corespring.javascript.tests.json;
 
 import static org.junit.Assert.assertEquals;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.NativeArray;
-import org.mozilla.javascript.NativeObject;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.NativeArray;
+import org.corespring.javascript.NativeObject;
 
-import org.mozilla.javascript.json.JsonParser;
-import org.mozilla.javascript.json.JsonParser.ParseException;
+import org.corespring.javascript.json.JsonParser;
+import org.corespring.javascript.json.JsonParser.ParseException;
 
 import org.junit.Before;
 import org.junit.After;

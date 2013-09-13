@@ -4,7 +4,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.javascript.tools.shell;
+package org.corespring.javascript.tools.shell;
 
 import java.io.InputStream;
 import java.util.List;
@@ -13,10 +13,10 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.lang.reflect.InvocationTargetException;
 
-import org.mozilla.javascript.Kit;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.Function;
+import org.corespring.javascript.Kit;
+import org.corespring.javascript.Scriptable;
+import org.corespring.javascript.ScriptableObject;
+import org.corespring.javascript.Function;
 
 /**
  * Provides a specialized input stream for consoles to handle line

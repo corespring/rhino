@@ -4,7 +4,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import org.mozilla.javascript.*;
+import org.corespring.javascript.*;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -38,8 +38,8 @@ import java.util.ArrayList;
  * 2
  * </pre>
  *
- * @see org.mozilla.javascript.Context
- * @see org.mozilla.javascript.Scriptable
+ * @see org.corespring.javascript.Context
+ * @see org.corespring.javascript.Scriptable
  *
  * @author Norris Boyd
  */

@@ -127,7 +127,7 @@
     <retrotranslator
       srcjar="${jarfile}"
       destjar="${dist.dir}/${rhino-14.jar}"
-      embed="org.mozilla.javascript"
+      embed="org.corespring.javascript"
     />
   </target>
 
@@ -160,7 +160,7 @@
     <retrotranslator
       srcjar="${smalljarfile}"
       destjar="${dist.dir}/${small-rhino-14.jar}"
-      embed="org.mozilla.javascript"
+      embed="org.corespring.javascript"
     />
   </target>
 

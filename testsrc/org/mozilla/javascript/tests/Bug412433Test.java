@@ -5,11 +5,11 @@
 /**
  *
  */
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import junit.framework.TestCase;
 
-import org.mozilla.javascript.*;
+import org.corespring.javascript.*;
 
 /**
  * See https://bugzilla.mozilla.org/show_bug.cgi?id=412433

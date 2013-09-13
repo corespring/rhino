@@ -5,20 +5,20 @@
 /**
  * 
  */
-package org.mozilla.javascript.tests;
+package org.corespring.javascript.tests;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.mozilla.javascript.CompilerEnvirons;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ErrorReporter;
-import org.mozilla.javascript.Parser;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.Undefined;
-import org.mozilla.javascript.ast.AstRoot;
+import org.corespring.javascript.CompilerEnvirons;
+import org.corespring.javascript.Context;
+import org.corespring.javascript.ErrorReporter;
+import org.corespring.javascript.Parser;
+import org.corespring.javascript.ScriptableObject;
+import org.corespring.javascript.Undefined;
+import org.corespring.javascript.ast.AstRoot;
 
 /**
  * @author André Bargull

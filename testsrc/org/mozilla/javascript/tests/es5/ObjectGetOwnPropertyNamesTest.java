@@ -5,9 +5,9 @@
 /*
  * Tests for the Object.getOwnPropertyNames(obj) method
  */
-package org.mozilla.javascript.tests.es5;
-import org.mozilla.javascript.*;
-import static org.mozilla.javascript.tests.Evaluator.eval;
+package org.corespring.javascript.tests.es5;
+import org.corespring.javascript.*;
+import static org.corespring.javascript.tests.Evaluator.eval;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
